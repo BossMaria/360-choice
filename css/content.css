@@ -1,0 +1,524 @@
+@font-face {
+    font-family: "GT-Eesti-Pro-Display-Medium";
+    src: url(../fonts/GT-Eesti-Pro-Text-Medium.ttf) format(truetype);
+    font-weight: medium;
+    font-style: medium;
+}
+@font-face {
+    font-family: "IBMPlexMono-MediumItalic";
+    src: url(../fonts/IBMPlexMono-Medium.ttf) format(truetype);
+    font-weight: medium;
+    font-style: medium;
+}
+@font-face {
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    src: url(../fonts/GT-Eesti-Pro-Display-Regular.otf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GT-Eesti-Pro-Display-Regular-Italic";
+    src: url(../fonts/GT-Eesti-Pro-Display-Regular-Italic.otf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.block1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 0.5px solid #181A20;
+    overflow: hidden;
+}
+.line1{
+    display: flex;
+    text-align: center;
+    height: 10vw;
+    width: 30vw;
+}
+.line2{
+    display: flex;
+    text-align: center;
+    width: 70vw;
+    height: 10vw;
+}
+
+.line3{
+    display: flex;
+    text-align: center;
+    width: 30vw;
+    height: 10vw;
+}  
+.c1{
+background: #181A20;
+width: 71vw;
+height: 10vw;
+line-height: 3vw;
+padding-left: 2% ;
+
+}
+.c1text{
+    font-family: "IBMPlexMono-MediumItalic";
+    color: #E0F416;
+    font-size: 2vw;
+    width: 60vw;
+    margin-top: 3%;
+}
+.c2, .c3, .c4{
+    background: #A6C3BA;
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    width: 10vw;
+    font-size: 4vw;
+    border: 1px solid black;
+    padding-top: 3vw;
+}
+
+.c5 , .c6, .c7, .c8 , .c9, .c10{
+    background: #181A20;
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    width: 10vw;
+    font-size: 4vw;
+    color: #A6C3BA;
+    border: 1px solid #A6C3BA;
+    padding-top: 3vw;
+}
+.c12, .c13, .c14{
+    background: #A6C3BA;
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    width: 10vw;
+    font-size: 4vw;
+    color: #181A20;
+    border: 1px solid #181A20;
+    padding-top: 3vw;
+}
+
+
+.c11{
+    background: #181A20;
+    width: 10vw;
+    border: 1px solid #A6C3BA;}
+.c15{
+    background: #A6C3BA;
+    width: 10vw;
+    color: #181A20;
+    border: 1px solid #181A20;
+    
+}
+.line4{
+display: flex;
+height: 10vw;
+width: 100%;
+    }
+/* 5 БЛОК */ /* 6 БЛОК */
+.block2{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    background: #181A20;
+}
+.img{
+    width: 100%;
+}
+/* 7 БЛОК */
+.block3{
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    /* align-items: center; */
+    overflow: hidden;
+}
+.text1{
+    background: #181A20;
+    color: #A6C3BA;
+    font-family: "GT-Eesti-Pro-Display-Medium";
+    font-size: 4vw;
+    width: 25vw;
+    
+}
+.text2{
+    
+    background: #A6C3BA;
+    color: #181A20;
+    width: 75vw;
+    font-size: 4vw;
+    font-family: "GT-Eesti-Pro-Display-Regular-Italic";
+    text-align: center;
+
+}
+.img1{
+    width: 80%;
+}
+.p1{
+    margin-top: 2%;
+}
+.p2{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+/* 8 БЛОК */
+.block4{
+    display: flex;
+    width: 100%;
+    background: #A6C3BA;
+    overflow: hidden;
+}
+.imgdiv{
+    background: #A6C3BA;
+    overflow: hidden;
+}
+.map{
+    background: #181A20;
+}
+/* 9 БЛОК */
+.block5{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+/* 12 БЛОК */
+.block6{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: #181A20;
+    overflow: hidden;
+
+}
+/* 13 БЛОК */
+
+.block7{
+    position: relative;
+    display: flex;
+    background: #181A20;
+    height: 40vh;
+    justify-content: center;
+    overflow: hidden;
+}
+.logo{
+    position: absolute;
+    margin-top: 10vh;
+    width: 30%;
+    animation: logo 1s linear  infinite ;
+}
+
+@keyframes logo {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+/* 14 БЛОК */
+
+.poster2{
+width: 100%;
+height: 800px;
+background-color: #E0F416;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+    overflow: hidden;
+}
+
+/* 2 СЕКЦИЯ */
+
+.c12o, .c13o, .c14o{
+    background: #E0F416;
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    width: 10vw;
+    font-size: 4vw;
+    color: #181A20;
+    border: 1px solid #181A20;
+    padding-top: 3vw;
+}
+
+
+.c2o, .c3o, .c4o{
+    background: #E0F416;
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    width: 10vw;
+    font-size: 4vw;
+    border: 1px solid black;
+    padding-top: 3vw;
+}
+.line4o{
+    display: flex;
+    text-align: center;
+    height: 10vw;
+    width: 100%;
+        }
+
+.c15o{
+    background: #E0F416;
+    width: 10vw;
+    color: #181A20;
+    border: 1px solid #181A20;
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    width: 10vw;
+    font-size: 6vw;
+    padding-top: 2vw;  
+}
+
+.c15o:hover  {
+    background: #A6C3BA;
+}
+
+/* 5 БЛОК */
+
+.linegdiv{
+    width: 100%;
+}
+
+.lineg{
+    display: block;
+    width: 100%;
+}
+.lineg1{
+    position: absolute;
+    width: 57.7%;
+    /* margin-top: -0.35%; */
+    /* width: 58%; */
+}
+
+.none {
+    display: none;
+}
+.flex {
+    display: flex;
+}
+
+/* #gif-click {
+    cursor: pointer;
+    height: auto;
+  } */
+
+.map2{
+    display: flex;
+    width: 100%;
+}
+.map3{
+    position: absolute;
+    width: 59.9%;
+}
+.group{
+    width: 74%;
+    margin-left: 4vw;
+z-index: 1;
+position: relative;
+/* margin-top: 3vh; */
+}
+.g1{
+    width: 100%;
+
+}
+.compass2{
+    margin-top: 5vh;
+    width: 100%;
+}
+.compass2div{
+    width: 100%;
+}
+
+.krug{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #E0F416;
+    margin-top: -25%;
+    margin-left: 8%;
+    z-index: 0;
+    animation: krug 1s linear  infinite ;
+}
+
+@keyframes krug {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }  
+}
+
+/* .compass2:onclick{
+    rotate: ;
+
+} */
+.block4n{
+    display: flex;
+    width: 100%;
+    background: #181A20;
+    overflow: hidden;
+}
+
+.lab{
+    width: 100%;
+}
+.lab1{
+    position: absolute;
+    width: 100%;
+}
+
+
+.l2{
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 7vw;
+    z-index: 0;
+}
+.l3{
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 10vw;
+    z-index: 1;
+}
+.l4{
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    z-index: 0;
+}
+.l5{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    z-index: 0;
+}
+
+.l3a{
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 20vw;
+    z-index: 1;
+}
+.l6a{
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 20vw;
+    z-index: 0;
+}
+.l7a{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 20vw;
+    z-index: 0;
+}
+.l8a{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 30vw;
+    z-index: 0;
+}
+.l9t{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 35vw;
+    z-index: 1;
+}
+.l11t{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 40vw;
+    z-index: 0;
+}
+
+.l3h{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 45vw;
+    z-index: 1;
+}
+.l14h{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 45vw;
+    z-index: 0;
+}
+.l13h{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 45vw;
+    z-index: 0;
+}
+
+.cross{
+    width: 100%;
+}
+.cross2{
+    width: 100%;
+}
+.crossdiv{
+    width: 100%;
+}
+.cross2div{
+    width: 100%;
+    
+}
+.crossdiv1{
+    width: 50%;
+    position: absolute;
+}
+
+.mapdiv{
+    width: 100%;
+}
+
+/* .container {
+    position: relative;
+    margin-left:100px ;
+} */
+
+/* .blockcontainer{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    background: #181A20;
+}
+
+.krug1, .krug2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+} */
+
+/* .krug1 {
+    top: 0;
+    left: 0;
+}
+
+.krug2 {
+    top: 300px;
+    left: 300px;
+} */
+/* 
+.line {
+    top: 100px;
+    left: 100px;
+    width: 100%;
+} */
+
+/* .none {
+    display: none;
+} */
+
+/* .flex {
+    display: flex;
+} */
+
+/* .connector {
+    width: 2px;
+    margin-left: 50px;
+    stroke: black;
+    background:black;
+    stroke-width: 2;
+    animation: animateLine 2s linear  infinite;
+} */
