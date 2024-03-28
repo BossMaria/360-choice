@@ -35,7 +35,7 @@ $(".block7").click(function (){
     $('.lineg').removeClass('none').addClass('block');
     });
 
-  $(".g1").click(function (){
+  $(".compass21").click(function (){
         $('.map3').removeClass('block').addClass('none');
         $('.map2').removeClass('none').addClass('block');
         });
